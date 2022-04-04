@@ -1,10 +1,11 @@
-ines (22 sloc)  1 KB
-   
 // ==UserScript==
 // @name         Reddit Place - Armée de Kameto
 // @namespace    http://tampermonkey.net/
 // @version      0.1
-// @description  Ne Mutlu Turkum Diyene.
+// @description  On va récuperer ce qui nous est du de droit.
+// @author       Adcoss95
+// @match        https://hot-potato.reddit.com/embed*
+// @icon         https://styles.redditmedia.com/t5_4eiiz1/styles/communityIcon_ojy24r8j90o81.jpg
 // @grant        none
 // ==/UserScript==
 if (window.top !== window.self) {
